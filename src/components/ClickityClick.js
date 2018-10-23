@@ -1,8 +1,5 @@
 // Code ClickityClick Component Here
 import React from 'react'
-
-
-
 export default class ClickityClick extends React.Component {
   constructor(){
     super()
@@ -18,7 +15,7 @@ export default class ClickityClick extends React.Component {
   }
   render(){
     return(
-      <p>I have {this.state.hasBeenCliked} > null : 'not' been clicked!</p>
+      <p>I have {this.state.hasBeenCliked} ? null : 'not' been clicked!</p>
       <button onClick={this.handleClick}>Click me!</button>
       
     )
